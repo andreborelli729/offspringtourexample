@@ -1,0 +1,29 @@
+@media screen and (min-width:300px){
+.footerLogo{
+  width:50vw;
+  margin-left:25vw;
+}
+
+.footer{
+  width:100%;
+  background-color: black;
+  display:grid;
+  grid-template-columns: 1fr,1fr;
+}
+
+}
+
+
+
+@media screen and (min-width:600px){
+
+
+  
+
+  .footerLogo{
+    width:24vw;
+    align-items:end;
+   
+    margin-left:38vw;
+  }
+}

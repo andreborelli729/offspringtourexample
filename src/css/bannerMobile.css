@@ -1,0 +1,167 @@
+@media screen and (min-width:1px){
+    .bannerMobile{
+      width:0.0001px;
+      height:0.0001px;
+      opacity:0;
+      display:none;
+    }
+  }
+  
+  @media screen and (min-width: 300px){
+  .bannerMobile{
+      width:100%;
+      background-repeat:no-repeat;
+      height:auto;
+      opacity:1;
+      display:block;
+      
+      
+    }
+    
+    .tourMobileInfo1::selection, .tourMobileInfo2::selection,
+     .tourMobileInfo3::selection, .tourMobileInfo4::selection, .tourTitle1::selection,
+     .tourTitle2::selection, .tourTitle3::selection, .tourTitle4::selection,
+      .tourTitle5::selection, .footerParagraph::selection{
+        background-color: #1990F9;
+      }
+    .tourMobileInfo1::selection{
+      color:white;
+    }
+    .bannerLogo{
+      width:50vw;
+    
+    }
+    .tourGridContainer{
+      width: 100%;
+      background-color: rgba(1,1,1,0.4);
+      
+     
+    
+    }
+    .tourMobileInfo{
+      background-color: black;
+      width: 94%;  
+      height: auto;
+      margin-left:3%;
+    }
+    
+    .tourMobileBtn{
+      background-color: black;
+      cursor: pointer;
+      border:2px solid #1990F9;
+      border-radius:5px;
+      color:#1990F9;
+      width:20vw;
+      margin-left:7vw;
+      height:7vh;    }
+    .tourMobileBtn:hover{
+      background-color: #1990F9;
+      color: white;
+    }
+    
+    .tourTitle, .tourMobileInfo{
+      display:grid;
+      grid-template-columns: 1fr, 1fr;
+      margin-top:10vh;
+      width: 94%;
+      
+    }
+    
+    .tourTitle1, .tourTitle2, .tourTitle3, .tourTitle4, .tourTitle5{
+      color:rgb(255, 255, 255);
+      font-size:20px;
+      font-weight:bold; 
+      text-align:center;
+    
+    
+    }
+    .tourMobileInfo1{
+      grid-column:1;
+      padding-top:4vh;
+      color:#1990F9;
+      width:19vw;
+      text-align:center;
+      font-size:28px;
+    font-weight:bold;
+    
+    }
+   
+    .tourMobileInfo2{
+      grid-column:1;
+      width:19vw;
+     text-align:center;
+    color:white;
+    font-weight:bold;
+    }
+    .tourMobileInfo3{
+      grid-column:1;
+      width:19vw;
+      text-align:center;
+      color:white;
+      font-weight:bold;
+    }
+
+   .tourMobileInfoBtnContainer{
+      grid-column:2;
+      width:19vw;
+    }
+    .bannerLink{
+      text-decoration: none;
+      
+    }
+ .tourMobileInfo3, .tourMobileInfo4{
+    margin-top:4vh;
+ }
+
+
+
+    .tourMobileInfo4{
+        grid-column:1;
+        width:19vw;
+        text-align:center;
+        color:white;
+        font-weight:bold;
+    }
+    .tourMobileInfoBtnContainer{
+      margin-left: 3vw;
+      margin-top:-10vh;
+      width: 20vh;
+      display:flex;
+    }
+    
+    
+    
+   
+    .bannerMessage{
+      width: 94%;
+      margin-left:3%;
+      background-color: #1990F9;
+      height: auto;
+    }
+    
+    .bannerMessageParagraph{
+      color:white;
+      text-align:center;
+      align-items:center;
+      padding-top:3vh;
+    }
+    .bannerTitle{
+      color: #1990F9;
+      font-size:85px;
+      font-weight:bold;
+      text-align:left;
+      padding-left:3vw;
+      padding-top:35vh;
+    
+    }
+  }
+
+  @media screen and (min-width:540px){
+.bannerMobile{
+    width:0.0001px;
+      height:0.0001px;
+      opacity:0;
+      display:none;
+}
+
+  }
